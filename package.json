@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@ali/midway-plugin-diamond": "^4.0.1",
+    "@ali/midway-plugin-diamond-version": "^0.0.4",
+    "@babel/generator": "^7.3.2",
+    "@babel/parser": "^7.2.3",
+    "@babel/traverse": "^7.2.3",
+    "@babel/types": "^7.2.2",
+    "args": "^5.0.0"
+  }
+}

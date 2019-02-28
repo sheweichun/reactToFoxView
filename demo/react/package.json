@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "babel-plugin-next": "^0.0.4",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}

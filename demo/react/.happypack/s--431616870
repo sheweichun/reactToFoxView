@@ -1,0 +1,14 @@
+
+
+export default function () {
+    var iframe = document.createElement('iframe');
+    iframe.style.display = 'none';
+    document.body.appendChild(iframe);
+    var doc = document.all ? iframe.contentWindow.document : iframe.contentDocument;
+    doc.open();
+    doc.write('\n       <script>\n        const win = window.top;\n        (function(React,ReactDOM,container){\n                ReactDOM.render(React.createElement(\'div\',{},\'React In Iframe\'),container)   \n        }(win.React,win.ReactDOM,win.document.getElementById(\'iframe\')))\n       </script>\n    ');
+    doc.close();
+
+    // iframe.contentEditable = true;
+    // ed.designMode = 'on';
+}
