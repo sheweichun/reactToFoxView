@@ -1,0 +1,3 @@
+[submodule "third_party/next"]
+	path = third_party/next
+	url = git@github.com:alibaba-fusion/next.git
